@@ -1,5 +1,5 @@
 import java.util.*;
-class OPR {
+class OperatorPrecedenceParser {
 	static char precedenceTable[][] = {
 		{'0','*','/','+','-','(',')','x','$'},
 		{'*','>','>','>','>','<','>','<','>'},
